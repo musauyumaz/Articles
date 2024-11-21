@@ -1,0 +1,60 @@
+﻿@using TestRadio.Extensions
+@model List<TestRadio.Models.RoleModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<table>
+    <tr style="background-color: cornflowerblue;font-family:fantasy;"><td></td><td>İzin Ver</td><td>Engelle</td><td>Yetki</td><td>Açıklama</td><td>Oyla</td></tr>
+    @{ var count = 0;}
+    @foreach (var item in Model)
+    {
+        count++;
+        <tr>
+            <td>@Html.Hidden("hdn" + @count, item.Id, new { @class = "hdnData" })</td>
+            @*<td>@Html.RadioButton("rd" + item.ID, true, item.IsAllow)</td>*@
+            <td>@Html.MyRadioButton(item.Id, true, item.IsAllow)</td>
+            <td>@Html.MyRadioButton(item.Id, false, !item.IsAllow)</td>
+            @*<td>@Html.RadioButton("rd" + item.ID, false, !item.IsAllow)</td>*@
+            <td>
+                @*@Html.TextBox("txtN" + item.ID, item.Name,new{@id="txtN"+item.ID})*@
+                @Html.MyTextBox("N", item.Id, item.Name)
+            </td>
+            <td>
+                @*@Html.TextBox("txtD" + item.ID, item.Description, new { @id = "txtD" + item.ID })*@
+                @Html.MyTextBox("D", item.Id, item.Description)
+            </td>
+            <td>
+                @Html.DropDownList("Rank", new SelectList(ViewBag.List, "ID", "Text"), new { @id = "drop" + item.Id })
+            </td>
+        </tr>
+    }
+</table>
+<br />
+
+<script src="~/Scripts/jquery-2.1.1.min.js"></script>
+<script type="text/javascript">
+    function RoleData() {
+        this.ID;
+        this.IsAllow;
+        this.Name;
+        this.Description;
+    };
+    function save() {
+        var dataModel = [];
+        $(".hdnData").each(function () {
+            dataModel.push({ 'ID': this.value, 'name': $("#txtN" + this.value).val(), 'description': $("#txtD" + this.value).val(), 'IsAllow': $('input[name=rd' + this.value + ']:radio:checked').val(), 'ListID': $('#drop' + this.value + " :selected").val() });
+        });
+        $.ajax({
+            type: 'POST',
+            url: '/Home/Index/',
+            data: JSON.stringify(dataModel),
+            contentType: "application/json",
+            dataType: 'text',
+            success: function (data) {
+                alert(data);
+            }
+        });
+    };
+</script>
+<input type="button" onclick="save();" value="Kaydet" />
