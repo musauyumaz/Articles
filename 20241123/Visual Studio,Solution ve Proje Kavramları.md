@@ -1,0 +1,3 @@
+# Visual Studio,Solution ve Proje Kavramları
+- Solution:Bu kavramı yüzeysel olarak ele almak istiyorum.Matematik biliminde evrensel küme olarak adlandırılan bir terim vardır.Yani bütün kümeleri içine alan bir kümedir evrensel küme.Solution kavramıda bu mantıkla bağdaşıyor.Biz çalışma yaparken bir solution üzerinden işlerimizi yürüteceğiz.Tabi bizim işimizi solution değil projeler görecektir.O halde bir solution içinde birden fazla proje bulunabilir.
+- Project:Yazılımcının fikirlerini algoritmik biçimde tasarladığı,şekillendirdiği,yazdığı kısaca bütün yaptığı işleri yerine getirdiği alandır.
