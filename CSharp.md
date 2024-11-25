@@ -7,3 +7,4 @@
 - [x] 20241124 [C# Tip Çevrimleri(Type Conversion) (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/cta-tip-cevrimleritype-conversion/)
 - [x] 20241124 [C# Operatörler (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/cta-operatorler/)
 - [x] 20241125 [C# Switch-Case Kullanımı (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/cta-switch-case-kullanimi/)
+- [x] 20241125 [C# ListBox ve ComboBox Kontrolleri (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/cta-listbox-ve-combobox-kontrolleri/)
