@@ -9,4 +9,5 @@
 - [x] 20241125 [C# Switch-Case Kullanımı (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/cta-switch-case-kullanimi/)
 - [x] 20241125 [C# ListBox ve ComboBox Kontrolleri (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/cta-listbox-ve-combobox-kontrolleri/)
 - [x] 20241125 [C# RadioButton ve CheckBox Kontrolleri (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/cta-radiobutton-ve-checkbox-kontrolleri/)
+- [x] 20241126 [C# Random Sınıfı (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/cta-random-sinifi/)
 - [] []()
