@@ -11,4 +11,5 @@
 - [x] 20241125 [C# RadioButton ve CheckBox Kontrolleri (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/cta-radiobutton-ve-checkbox-kontrolleri/)
 - [x] 20241126 [C# Random Sınıfı (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/cta-random-sinifi/)
 - [x] 20241126 [C# Form Özelliklerinden AcceptButton-CancelButton (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/cta-form-ozelliklerinden-acceptbutton-cancelbutton/)
+- [x] 20241126 [C# Koşul Yapıları[İf-Else İf] (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/cta-kosul-yapilariif-else-if/)
 - [] []()
