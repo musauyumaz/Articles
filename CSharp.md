@@ -14,4 +14,5 @@
 - [x] 20241126 [C# Koşul Yapıları[İf-Else İf] (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/cta-kosul-yapilariif-else-if/)
 - [x] 20241127 [Bir Kaç İpucu (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/bir-kac-ipucu/)
 - [x] 20241128 [C# Faktöriyel Programı (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/cta-faktoriyel-programi/)
+- [x] 20241128 [C# Timer Nesnesinin Kullanımı (08/03/2012) - Gençay Yıldız](https://www.gencayyildiz.com/blog/cta-timer-nesnesinin-kullanimi/)
 - [] []()
